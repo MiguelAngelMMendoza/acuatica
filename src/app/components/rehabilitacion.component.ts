@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
 	selector: 'rehabilitacion',
 	templateUrl: '../views/rehabilitacion.html'
 })
-export class rehabilitacionComponent {
+export class RehabilitacionComponent {
 	public titulo:string;
 
 	constructor(){
