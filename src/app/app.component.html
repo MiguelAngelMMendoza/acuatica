@@ -1,26 +1,22 @@
-<div id="content" class="col-lg-10 col-lg-offset-1">
-	<header id="header" class="col-lg-12">
-		<h1>Acuatica & Salón TIHUI</h1>
-	</header>
-
-  <nav id="nav" class="col-lg-12">
-		<ul>
-			<li><a [routerLink]="['/quienes-somos']" [routerLinkActive]="['activado']">¿Quienes somos?</a></li>
-			<li><a [routerLink]="['/natacion']" [routerLinkActive]="['activado']">Natación</a></li>
-			<li><a [routerLink]="['/salon']" [routerLinkActive]="['activado']">Salón de fiestas</a></li>
-      <li><a [routerLink]="['/rehabilitacion']" [routerLinkActive]="['activado']">Rehabilitación</a></li>
-		</ul>
-	</nav>
-
+<header id="header" class="col-lg-12">
+	<h1 >Acuatica & Salón TIHUI</h1>
+</header>
+<nav id="nav" class="col-lg-12">
+	<ul>
+		<li><a [routerLink]="['/galeria']" [routerLinkActive]="['activado']">Inicio</a></li>
+		<li><a [routerLink]="['/quienes-somos']" [routerLinkActive]="['activado']">¿Quienes somos?</a></li>
+		<li><a [routerLink]="['/natacion']" [routerLinkActive]="['activado']">Natación</a></li>
+		<li><a [routerLink]="['/salon']" [routerLinkActive]="['activado']">Salón de fiestas</a></li>
+  <li><a [routerLink]="['/rehabilitacion']" [routerLinkActive]="['activado']">Rehabilitación</a></li>
+	</ul>
+</nav>
 	<section id="main" class="col-lg-12">
 		<!-- Componente actual -->
 		<router-outlet></router-outlet>
 	</section>
 
-	<footer id="footer" class="col-lg-12">
-		<p>Acuatica TIHUI: Pico de orizaba Mz.144 1509, Col. Lázaro Cárdenas, Tlalnepantla de baz,
-      Estado de México, CP.54189 Tel. 5557181750
-    </p>
+<footer id="footer" class="col-lg-12">
+	<p>Acuatica TIHUI: Pico de orizaba Mz.144 1509, Col. Lázaro Cárdenas, Tlalnepantla de baz,
+      Estado de México, CP.54189 Tel. 5557181750</p>
     <p>2021-2024 Acuatica TIHUI. Todos los derechos reservados v1.0</p>
-	</footer>
-</div>
+</footer>
