@@ -2,7 +2,8 @@ import { Component } from '@angular/core';
 
 @Component({
 	selector: 'rehabilitacion',
-	templateUrl: '../views/rehabilitacion.html'
+	templateUrl: '../views/rehabilitacion.html',
+	styleUrls: ['../css/rehabilitacion.component.css']
 })
 export class RehabilitacionComponent {
 	public titulo:string;

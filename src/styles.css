@@ -42,14 +42,14 @@
 	color: #051c4de0;
 	height: 30px;
 	line-height: 29px;
-	padding-left: 45px;
-	padding-right: 45px;
+	padding-left: 40px;
+	padding-right: 40px;
 	transition: all 300ms;
 }
 
 #nav ul li a:hover{
 	text-decoration: none;
-	background: #31cbe0;
+	background: #051c4d75;
 }
 
 .activado{

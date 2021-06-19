@@ -2,7 +2,8 @@ import { Component } from '@angular/core';
 
 @Component({
 	selector: 'salon',
-	templateUrl: '../views/salon.html'
+	templateUrl: '../views/salon.html',
+	styleUrls: ['../css/salon.component.css']
 })
 export class SalonComponent {
 	public titulo:string;

@@ -2,7 +2,8 @@ import { Component } from '@angular/core';
 
 @Component({
 	selector: 'natacion',
-	templateUrl: '../views/natacion.html'
+	templateUrl: '../views/natacion.html',
+	styleUrls: ['../css/natacion.component.css']
 })
 export class NatacionComponent {
 	public titulo:string;
